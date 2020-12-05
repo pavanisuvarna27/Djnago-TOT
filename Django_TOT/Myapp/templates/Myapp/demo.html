@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sample inline,internal,external examples</title>
+	<style type="text/css">
+		p{
+			background-color: magenta;
+			padding: 23px;
+			margin-left: 230px;
+			margin-right: 230px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/demo.css' %}">
+</head>
+<body>
+<h2>This is sample page for css</h2>
+<h3>Inline styles</h3>
+<p style='background-color: green;color: white;padding: 3px;margin-left: 230px;margin-right: 230px;font-size: 23px;'>this is example for inline</p>
+
+<p>this is sample page</p>
+<h4 style='background-color: orange;color: white;padding:23px;'>This is demo</h4>
+
+
+<h3>Internal Styles</h3>
+<p>This is example for internal style</p>
+
+<h3>External Styles</h3>
+<h5>this sample for external css</h5>
+</body>
+</html>

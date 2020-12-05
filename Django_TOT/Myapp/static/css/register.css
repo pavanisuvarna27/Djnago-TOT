@@ -1,0 +1,39 @@
+body{  
+    background-color:#9DD7F1;  
+    font-family: 'Arial';  
+}  
+.register{
+	width: 382px;    
+    margin: auto;   
+    padding: 50px;  
+    background: #23463f;  
+    border-radius: 15px ; 
+}
+h2{  
+    text-align: center;  
+    color: white;  
+      
+}  
+p{
+	text-align: center;  
+    color: #277582;  
+     
+}
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#fname,#rlno,#email,#lan,#phno{width: 300px;  
+    height: 30px; 
+    border: none; 
+    border-radius: 3px;  
+    padding-left: 8px; 
+}
+#registerbtn{
+	width: 310px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 15px;  
+    color: white;  
+    background-color: blue;
+}
